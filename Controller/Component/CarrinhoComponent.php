@@ -20,11 +20,9 @@
 *   https://github.com/ftgoncalves/pagseguro/  de Felipe Theodoro Gonçalves, (http://ftgoncalves.com.br)
 */
 
-require_once ROOT . '/vendor/autoload.php';
-require_once ROOT . '/vendor/pagseguro/php/source/PagSeguroLibrary/PagSeguroLibrary.php';
-require_once ROOT . '/app/Plugin/PagSeguro/Assets/Codes.php';
-
-
+require_once APP . 'Vendor/autoload.php';
+require_once APP . 'Vendor/pagseguro/php/source/PagSeguroLibrary/PagSeguroLibrary.php';
+require_once APP . 'Plugin/PagSeguro/Assets/Codes.php';
 
 class CarrinhoComponent extends Component
 {
